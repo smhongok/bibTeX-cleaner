@@ -6,6 +6,15 @@ Made by [홍성민](https://smhongok.github.io)
 
 이 프로젝트는 BibTeX 파일을 읽어서, 특정 머신러닝/컴퓨터비전 학회(\@inproceedings) 엔트리를 \@article 형태로 자동 변환하거나(또는 그대로 두기도 가능), 제목에서 대문자 약어를 보존하는 등의 **일괄 정리**를 수행합니다. 또한 **주석**, **@String 매크로**, **파일 내 순서**를 최대한 그대로 유지하면서, 원하는 **필드 정리**를 자동으로 적용합니다.
 
+## 예시 변환
+
+아래 그림처럼, `before.png`의 BibTeX를 `python main.py --input input.bib --output output.bib` 명령어 한 줄로 처리하여 `after.png`처럼 깔끔하게 바꿀 수 있습니다:
+
+| **Before** | **After** |
+|:----------:|:---------:|
+| <img src="assets/before.png" alt="before" width="400"/> | <img src="assets/after.png" alt="after" width="400"/> |
+
+
 ## 주요 특징
 
 1. **학회 감지 & 변환**  
